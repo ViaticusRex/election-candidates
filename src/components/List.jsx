@@ -14,11 +14,18 @@ const List = () => {
         "Sean Patrick Maloney", "Chris Jacobs", "Joe Morelle"
     ];
 
+    const cards = candidateNames.map((name,idx) => {
+      return (
+        <Card key={idx} name = {name}/>
+      )
+    })
+
+
   return (
     <div className='card-container'>
         <h3>People</h3>
         <div className='card-display'>
-          <Card name = 'Vianel'/>
+          {cards}
         </div>
     </div>
   )
