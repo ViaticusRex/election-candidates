@@ -1,0 +1,11 @@
+.navBar{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navBar-img{
+    width: 60px;
+}

@@ -1,4 +1,6 @@
 import React from 'react'
+import '../style/List.css'
+import Card from './Card';
 
 const List = () => {
     const candidateNames = [
@@ -13,7 +15,12 @@ const List = () => {
     ];
 
   return (
-    <div>List</div>
+    <div className='card-container'>
+        <h3>People</h3>
+        <div className='card-display'>
+          <Card name = 'Vianel'/>
+        </div>
+    </div>
   )
 }
 

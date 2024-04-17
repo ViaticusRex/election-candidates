@@ -1,8 +1,12 @@
-import React from 'react'
+import '../style/NavBar.css'
+import image from '../assets/image.png';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='navBar'>
+      <img className='navBar-img' src={image} />
+
+    </div>
   )
 }
 
